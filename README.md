@@ -58,22 +58,16 @@ It helps APEX developers, analysts, and architects quickly identify **nulls, dup
 
 ## 🚀 Installation
 
-### 1. Import the Plug-in
+### 1. Create Package in Database
+Ensure the following files are attached to the plug-in:
+- `dqi_apex_plugin.spc`
+- `dqi_apex_plugin.bdy`
+
+### 2. Import the Plug-in
 1. Go to **Shared Components → Plug-ins**
 2. Click **Import**
 3. Upload the plug-in SQL file
 4. Install the plug-in
-
-### 2. Upload Plugin Files
-Ensure the following files are attached to the plug-in:
-- `dqi.js`
-- `dqi.css`
----
-
-### 3. Create Package in Database
-Ensure the following files are attached to the plug-in:
-- `dqi_apex_plugin.spc`
-- `dqi_apex_plugin.bdy`
 ---
 
 ## ⚙️ Configuration (Custom Attributes)

@@ -1,6 +1,6 @@
 # Data Quality Insights (DQI) – Oracle APEX Region Plugin
 
-**Data Quality Insights (DQI)** is a professional **Oracle APEX 24.2 Region Plug-in** that provides real-time, visual data quality profiling for any SQL query.
+**Data Quality Insights (DQI)** is a professional **Oracle APEX Region Plug-in** that provides real-time, visual data quality profiling for any SQL query.
 
 It helps APEX developers, analysts, and architects quickly identify **nulls, duplicates, and invalid values** directly inside their applications — without exporting data or building custom reports.
 
@@ -31,7 +31,7 @@ It helps APEX developers, analysts, and architects quickly identify **nulls, dup
 ## 📦 Plugin Type
 
 - **Oracle APEX Region Plug-in**
-- Compatible with **Oracle APEX 24.2**
+- Compatible with **Oracle APEX**
 - Designed for **Oracle Database 19c+** (26ai-ready)
 
 ---
@@ -50,7 +50,7 @@ It helps APEX developers, analysts, and architects quickly identify **nulls, dup
 - Minimal, enterprise-grade CSS
 
 ### Configuration
-- Uses **Custom Attributes (Static IDs)** in APEX 24.2
+- Uses **Custom Attributes (Static IDs)** in Oracle APEX
 - No dependency on `attribute_01` ordering
 - Fully declarative setup
 

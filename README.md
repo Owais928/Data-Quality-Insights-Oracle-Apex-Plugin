@@ -68,7 +68,12 @@ It helps APEX developers, analysts, and architects quickly identify **nulls, dup
 Ensure the following files are attached to the plug-in:
 - `dqi.js`
 - `dqi.css`
+---
 
+### 3. Create Package in Database
+Ensure the following files are attached to the plug-in:
+- `dqi_apex_plugin.spc`
+- `dqi_apex_plugin.bdy`
 ---
 
 ## ⚙️ Configuration (Custom Attributes)

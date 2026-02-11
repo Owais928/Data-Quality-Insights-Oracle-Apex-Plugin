@@ -1,0 +1,45 @@
+{
+  "name": "DataQualityInsights",
+  "version": "1.0.0",
+  "description": "A professional Oracle APEX 24.2 region plug-in that profiles data quality for any SQL query and visualizes column-level nulls, duplicate rows, and rule-based invalid values with configurable thresholds and sampling.",
+  "keywords": [
+    "oracle apex",
+    "apex plugin",
+    "region plugin",
+    "data quality",
+    "data profiling",
+    "data validation",
+    "plsql",
+    "dynamic sql",
+    "json",
+    "dashboard"
+  ],
+  "homepage": "https://github.com/Owais928/Data-Quality-Insights-Oracle-Apex-Plugin",
+  "bugs": {
+    "url": "https://github.com/Owais928/Data-Quality-Insights-Oracle-Apex-Plugin/issues",
+    "email": "awaisanwar23@gmail.com"
+  },
+  "license": "MIT",
+  "commercial": "No",
+  "author": {
+    "name": "MUHAMMAD AWAIS",
+    "email": "awaisanwar23@gmail.com",
+    "url": "https://oratechbyawais.blogspot.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Owais928/Data-Quality-Insights-Oracle-Apex-Plugin.git"
+  },
+  "oracle": {
+    "versions": ["19.0.0", "21.0.0", "23.0.0", "26.0.0"],
+    "apex": {
+      "versions": ["24.2.0"],
+      "plugin": {
+        "internalName": "COM.ORATECH.DQI",
+        "type": "region",
+        "demo": "https://portfolio.oracletech.com.pk/ords/r/ot/test-app/login",
+        "previewImage": "https://raw.githubusercontent.com/Owais928/Data-Quality-Insights-Oracle-Apex-Plugin/6906e8f8656bb19f5de8e417db8c5fe6ad973d31/DQI.gif"
+      }
+    }
+  }
+}
